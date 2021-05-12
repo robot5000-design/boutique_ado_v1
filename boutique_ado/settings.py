@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',  # used to allow users to makes an account directly from social media account
     'home',
     'products',
+    'bag',
 ]
 
 MIDDLEWARE = [
