@@ -17,6 +17,8 @@ def bag_contents(request):
     
     grand_total = delivery + total
     
+    # this context is available accross every template and every app
+    # because it was added to context processors in settings
     context = {
         'bag_items': bag_items,
         'total': total,
